@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv('config.env')
 
 # bot name
 bot_name = "Spot Seek Bot"
